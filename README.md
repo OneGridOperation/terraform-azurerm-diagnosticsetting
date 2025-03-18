@@ -55,7 +55,6 @@ No modules.
 | <a name="input_metrics"></a> [metrics](#input\_metrics) | (Optional) The list of Diagnostic Metrics.<br/>  The Metric Categories available vary depending on the Resource being used.<br/>  You may wish to use the `azurerm_monitor_diagnostic_categories` Data Source to identify which categories are available for a given Resource. | `list(string)` | `[]` | no |
 | <a name="input_subscription_id"></a> [subscription\_id](#input\_subscription\_id) | n/a | `string` | `"00000000-0000-0000-0000-000000000000"` | no |
 | <a name="input_system_short_name"></a> [system\_short\_name](#input\_system\_short\_name) | (Required) Specifies the short abbreviation of the system name according to naming convention guidelines.<br/>  Will be part of the final name of the deployed resource. | `string` | n/a | yes |
-| <a name="input_tags"></a> [tags](#input\_tags) | (Optional) A mapping of tags to assign to the resource. | `map(string)` | `{}` | no |
 | <a name="input_target_resource_id"></a> [target\_resource\_id](#input\_target\_resource\_id) | (Required) The ID of an existing Resource on which to configure Diagnostic Settings.<br/>  Changing this forces a new resource to be created. | `string` | n/a | yes |
 
 ## Outputs
