@@ -63,9 +63,3 @@ variable "metrics" {
   type        = list(string)
   default     = []
 }
-
-variable "tags" {
-  description = "(Optional) A mapping of tags to assign to the resource."
-  type        = map(string)
-  default     = {}
-}

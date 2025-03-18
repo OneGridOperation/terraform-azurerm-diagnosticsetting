@@ -32,6 +32,4 @@ resource "azurerm_monitor_diagnostic_setting" "diagnostic_setting" {
       enabled  = true
     }
   }
-
-  tags = var.tags
 }
